@@ -15,6 +15,7 @@ I will use the exact steps I took to reproduce this issue - I think the WSL dist
 - Clone this repo into the Windows 11 file system.
 - In WSL (Ubuntu) install __nvm__ with `sudo apt install nvm`
 - In Ubuntu, install node 18 with `nvm install lts/hydrogen`
+- In Ubuntu, navigate to this project's root directory, and run `make .test` (installs dependencies, and tests should pass)
 - In WebStorm (native Windows) open this repo
 - In WebStorm, configure the node interpreter (CTRL + SHIFT + A and type `node interpreter`)
 - In WebStorm, navigate to [test/main.test.ts](./test/main.test.ts), and click the Run triangle next to one of the  
