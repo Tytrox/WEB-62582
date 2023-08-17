@@ -2,6 +2,10 @@
 
 https://youtrack.jetbrains.com/issue/WEB-62582/Jest-No-matching-tests-found-for-default-run-configuration-when-node-interpreter-is-in-WSL
 
+## Fix:
+
+Commenting out `import { describe } from "node:test"` in line 2 of [./test/main.test.ts](./test/main.test.ts)
+
 ## Dependencies:
 
 - Make (tested on GNU Make 4.3)
